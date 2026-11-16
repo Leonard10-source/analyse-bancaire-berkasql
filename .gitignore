@@ -1,0 +1,16 @@
+﻿# Donnees brutes volumineuses : les conserver localement, ne pas publier.
+/data/raw/
+/data/processed/
+
+# Identifiants et secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Fichiers temporaires
+*.log
+*.tmp
+*.bak
+Thumbs.db
+.DS_Store
